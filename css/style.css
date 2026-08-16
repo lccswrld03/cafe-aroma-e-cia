@@ -10,9 +10,9 @@ ex: pode ser utilizado para definir a mesma fonte para varias tags, sem precisar
     --cor-da-fonte: whitesmoke;
     
     --fonte-titulo: "Bebas Neue", sans-serif;
-    --fonte-texto: "Elsie", serif;
+    --fonte-texto: "IndiFlower", cursive;
     --fonte-rodape: "Roboto Mono", monospace;
-    --fonte-detalhe: "IndiFlower", cursive;
+    --fonte-detalhe: "Elsie", serif;
 
     --fonte-tamanho-texto: auto;
 }
