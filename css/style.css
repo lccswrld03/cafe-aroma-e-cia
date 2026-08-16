@@ -144,6 +144,13 @@ p {
 
 }
 
+p.paragrafo-feedback {
+    font-family: var(--fonte-detalhe);
+    color: goldenrod;
+    text-shadow: 1px 1px 1px black;
+
+}
+
 label {
     text-align: center;
     display: flex;
@@ -190,13 +197,6 @@ ul.lista {
 form {
     font-family: var(--fonte-texto);
     color: var(--cor-da-fonte);
-}
-
-p.paragrafo-nome {
-    font-family: var(--fonte-detalhe);
-    color: goldenrod;
-    text-shadow: 1px 1px 1px black;
-
 }
 
 button {
