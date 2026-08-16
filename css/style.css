@@ -1,0 +1,203 @@
+/* Cria um padrão para cada seletor. 
+ex: pode ser utilizado para definir a mesma fonte para varias tags, sem precisar decorar o nome dela.  */
+:root {
+    --espacamento-lg: 56px;
+    --espacamento-md: 32px;
+    --espacamento-padrao: 16px;
+    --espacamento-sm: 8px;
+    
+    --cor-de-fundo: #5E2013;
+    --cor-da-fonte: whitesmoke;
+    
+    --fonte-titulo: "Bebas Neue", sans-serif;
+    --fonte-texto: "Cinzel", serif;
+    --fonte-rodape: "Roboto Mono", monospace;
+
+    --fonte-tamanho-texto: auto;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    background-color: var(--cor-de-fundo);
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+
+body {
+    margin: var(--espacamento-padrao);
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+
+.container {
+    display: flex;
+    justify-content:space-around;
+    text-align: left;
+    align-items: center;
+    gap: var(--espacamento-md);
+    border: 2px groove goldenrod;
+    border-radius: 6px;
+    color: var(--cor-da-fonte);
+    background-color: black;
+    padding: var(--espacamento-md);
+    font-family: var(--fonte-rodape);
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+b {
+    color: goldenrod;
+}
+
+#sobre {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor-da-fonte);
+    box-sizing: border-box;
+    margin-top: var(--espacamento-lg);
+    margin-bottom: var(--espacamento-lg);
+}
+
+#cardapio {
+
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin-bottom: var(--espacamento-lg);
+    color: whitesmoke;
+}
+
+#depoimentos {
+    margin-bottom: var(--espacamento-lg);
+}
+
+.card {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: var(--espacamento-sm);
+    background-color: black;
+    color: var(--cor-da-fonte);
+    width: fit-content;
+    border-radius: 12px;
+    padding: var(--espacamento-md);
+    margin-top: 64px;
+    font-weight: 700;
+
+}
+
+.card-feedback p {
+    font-family: var(--fonte-texto);
+    font-size: var(--fonte-tamanho-texto);
+    font-style: italic;
+}
+
+h1, h2 {
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cor-da-fonte);
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: var(--espacamento-sm);
+    
+}
+
+h1 {
+    font-size: 400%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+p {
+     font-family: var(--fonte-texto);
+     font-size: var(--fonte-tamanho-texto);
+     font-weight: 700;
+     font-style: normal;
+     color: var(--cor-da-fonte);
+
+}
+
+label {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    margin: 0 auto;
+    width: fit-content;
+    font-family: var(--fonte-texto);
+    
+}
+
+table {
+    margin: 0 auto;
+    box-sizing: content-box;
+    border: 2px solid white;
+    width: fit-content;
+    
+}
+
+th {
+    padding: 2px;
+}
+
+td {
+    padding: 20px;
+}
+
+ul {
+    width: fit-content;
+    color: var(--cor-da-fonte);
+    
+}
+
+ul.lista {
+    
+    width: fit-content;
+}
+
+.reserva {
+    color: var(--cor-da-fonte);
+}
+
+form {
+    font-family: var(--fonte-formulario);
+    color: var(--cor-da-fonte);
+}
+
+p.paragrafo-2 {
+    font-family: var(--fonte-texto);
+    color: goldenrod;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+button {
+    text-align: center;
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Página da Cafeteria Café Aroma e Cia, localizada em Rio Grande, RS.">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+        <title>Café Aroma e Cia</title>
+    </head>
+    <body>
+        <header>
+            <h1>Café Aroma & Cia</h1>
+            <nav class="container container-nav">
+                <div>
+                <a href="#sobre">Sobre</a>
+                </div>
+                <b>---</b>
+                <div>
+                <a href="#cardapio">Cardápio</a>
+                </div>
+                <b>---</b>
+                <div>
+                <a href="#depoimentos">Depoimentos</a>
+                </div>
+                <b>---</b>
+                <div>
+                <a href="#reserva">Reserva</a>
+                </div>
+                <b>---</b>
+                <div>
+                <a href="#contato">Contato</a>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+        <section id="sobre">
+        <h2>Sobre o Café:</h2>
+        <br>
+        <div>
+        <img src="/semana_5/exercicio1/assets/img/cafe-aroma-e-cia.webp" width="800" height="auto" alt="Imagem do espaço do Café Aroma e Cia">
+        </div>
+        <br>
+        <p>Desde 2020, o Café Aroma e Cia traz calor aos dias mais frios da cidade de Rio Grande.</p>
+        <p>Estamos abertos, com o café mais quente da cidade, de segunda a quinta, das 14h às 19h.</p>
+        <br>
+        <p>Temos opções para todos os gostos!</p>
+        </section>
+        
+        <section id="cardapio">
+            
+        <h2>Cardápio:</h2>
+        <br>
+        <table border="1">
+            <tr>
+                <th colspan="2">Item</th>
+                <th colspan="4">Descrição</th>
+                <th colspan="2">Preço</th>
+            </tr>
+
+            <tr>
+                <td colspan="2">Latte Caramelo Salgado</td>
+                <td colspan="4">Suave e equilibrado. Leite longo, espresso e calda artesanal de caramelo com flor de sal.</td>
+                <td colspan="2">R$ 11,50</td>
+            </tr>
+            <tr>
+                <td colspan="2">Café da casa</td>
+                <td colspan="4">Feito na hora, carro chefe da casa</td>
+                <td colspan="2">R$ 8,00</td>
+                
+            </tr>
+            <tr>
+                
+                <td colspan="2">Cappuccino</td>
+                <td colspan="4">Cappuccino clássico</td>
+                <td colspan="2">R$ 6,50</td>
+
+            </tr>
+            <tr>
+                <td colspan="2">Torrada</td>
+                <td colspan="4">Pão na chapa, queijo e presunto e especiarias</td>
+                <td colspan="2">R$ 9,00</td>
+            </tr>
+        </table>
+        <br>
+        <small>Cardápio completo disponível no balcão.</small>
+        </section>
+        
+        <section id="reserva">
+            <h2>Reserve sua mesa</h2>
+
+            <form>
+                <label for="pessoas">
+                    Quantidade de pessoas:
+                    <input 
+                    type="number"
+                    name="pessoas"
+                    id="pessoas" required>
+                </label>
+                <br><br>
+                <label for="nome">
+                    Nome completo:
+                    <input 
+                    type="text"
+                    name="nome"
+                    id="nome"
+                    maxlength="20" required
+                    placeholder="Ex: Ana">
+                </label>
+                <br><br>
+                <label for="data">
+                    Data da reserva:
+                    <input 
+                    type="date"
+                    name="data"
+                    id="data" required>
+                </label>
+                <br><br>
+                <label for="email">
+                    Email:
+                    <input 
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="exemplo@email.com" required>
+                </label>
+                <br><br>
+                <button type="submit" value="Confirmar">Confirmar</button>
+            </form>
+        </section>
+      
+        <aside>
+        <section id="depoimentos">
+            <article class="card card-feedback">
+            <h2>Feedback de nossos clientes</h2>
+                <p>
+                    <b>Felipe:</b>
+                    "O melhor cappuccino da região, e o ambiente é super tranquilo para trabalhar."
+                </p>
+                <p>
+                    <b>Davi:</b>
+                    "Recomendo. Peçam o 'Café da Casa', vocês não vão se arrepender."
+                </p>
+                <p>
+                    <b>Ana:</b>
+                    "Fui muito bem atendida, já quero voltar!"
+                </p>
+            </article>
+        </section>
+        </aside>
+    </main>
+</body>
+   
+    <section id="contato">
+    
+        <footer class="container">
+            <div>
+                <p>Endereço:</p><br>
+                <p>Café Aroma e Cia, <br> Rua Doutor Nascimento, 503, centro de Rio Grande.</p>
+            </div>
+            
+            <aside>
+        <div>
+            <img src="/semana_5/exercicio1/assets/img/logo-cafe-aroma.png" width="150" height="auto" alt="Logo da cafeteria Café e Aroma e Cia.">
+        </div>
+            </aside>
+            
+            <div>
+                <p>Contato:</p><br>
+                <p><b>email : </b> contato_aromaecia@gmail.com</p>
+                <p><b>whatsapp : </b> (53) 99161-2851</p>
+            </div>
+            
+    </footer>   
+</section>
+</html>
