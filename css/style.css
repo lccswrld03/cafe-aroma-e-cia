@@ -187,7 +187,7 @@ ul.lista {
 }
 
 form {
-    font-family: var(--fonte-formulario);
+    font-family: var(--fonte-texto);
     color: var(--cor-da-fonte);
 }
 
