@@ -191,7 +191,7 @@ form {
     color: var(--cor-da-fonte);
 }
 
-p.paragrafo-2 {
+p.paragrafo-nome {
     font-family: var(--fonte-texto);
     color: goldenrod;
     text-shadow: 1px 1px 1px black;
