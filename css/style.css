@@ -10,8 +10,9 @@ ex: pode ser utilizado para definir a mesma fonte para varias tags, sem precisar
     --cor-da-fonte: whitesmoke;
     
     --fonte-titulo: "Bebas Neue", sans-serif;
-    --fonte-texto: "Elms Sans", sans-serif;
+    --fonte-texto: "Elsie", serif;
     --fonte-rodape: "Roboto Mono", monospace;
+    --fonte-detalhe: "IndiFlower", cursive;
 
     --fonte-tamanho-texto: auto;
 }
@@ -192,7 +193,7 @@ form {
 }
 
 p.paragrafo-nome {
-    font-family: var(--fonte-texto);
+    font-family: var(--fonte-detalhe);
     color: goldenrod;
     text-shadow: 1px 1px 1px black;
 
